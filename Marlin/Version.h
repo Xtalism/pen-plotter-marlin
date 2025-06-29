@@ -35,7 +35,7 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "Please wait..."
+  #define SHORT_BUILD_VERSION "Pen Plotter CNC v1.0"
 
   /**
    * Verbose version identifier which should contain a reference to the location
@@ -90,6 +90,7 @@
    * The WEBSITE_URL is the location where users can get more information such as
    * documentation about a specific Marlin release.
    */
-  #define WEBSITE_URL "Congmanhtb@gmail.com"
+  // #define WEBSITE_URL "Congmanhtb@gmail.com"
+  #define WEBSITE_URL "UACJ"
 
 #endif // USE_AUTOMATIC_VERSIONING
