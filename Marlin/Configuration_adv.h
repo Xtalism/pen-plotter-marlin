@@ -220,6 +220,8 @@
 #define EXTRUDER_AUTO_FAN_TEMPERATURE 50
 #define EXTRUDER_AUTO_FAN_SPEED   255  // == full speed
 
+#define Z_PROBE_SERVO_NR 1
+
 /**
  * M355 Case Light on-off / brightness
  */
