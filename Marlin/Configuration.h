@@ -509,7 +509,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 800, 400, 400, 500 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 444.44, 444.44, 444.44, 500 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -524,7 +524,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 500, 500, 200, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 500, 500, 100, 10000 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
@@ -730,6 +730,10 @@
 #define INVERT_Y_DIR true
 #define INVERT_Z_DIR false
 
+#define X_DRIVER_TYPE DRV8825 
+#define Y_DRIVER_TYPE DRV8825
+
+
 // Enable this option for Toshiba stepper drivers
 //#define CONFIG_STEPPERS_TOSHIBA
 
@@ -757,7 +761,7 @@
 
 // Travel limits after homing (units are in mm)
 #define X_BED_SIZE 100 // X axis travel after homing 280 120
-#define Y_BED_SIZE 100 // Y axis travel after homing 220
+#define Y_BED_SIZE 80 // Y axis travel after homing 220
 
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
