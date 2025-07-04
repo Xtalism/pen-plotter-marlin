@@ -509,7 +509,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 444.44, 444.44, 444.44, 500 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 400, 400, 400, 500 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -732,7 +732,6 @@
 
 #define X_DRIVER_TYPE DRV8825 
 #define Y_DRIVER_TYPE DRV8825
-
 
 // Enable this option for Toshiba stepper drivers
 //#define CONFIG_STEPPERS_TOSHIBA
