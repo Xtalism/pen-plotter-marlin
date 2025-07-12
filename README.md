@@ -4,7 +4,7 @@ A custom Marlin firmware configuration for a 2-axis CNC pen plotter build. This 
 
 ## Demonstration
 
-https://github.com/user-attachments/assets/fa1ae8e1-bc3e-4661-9ade-d85441721e21
+https://github.com/user-attachments/assets/01947e5d-a751-4aa7-b0f7-e11b570acc81
 
 ## Features
 
