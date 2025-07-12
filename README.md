@@ -2,12 +2,14 @@
 
 A custom Marlin firmware configuration for a 2-axis CNC pen plotter build. This project adapts the popular Marlin 3D printer firmware to control a pen plotting machine capable of drawing vector graphics and designs.
 
+## Demonstration
+
 ## Features
 
 - **2-Axis Control**: Precise X/Y movement for drawing applications
 - **Servo Pen Control**: Automated pen lift/lower mechanism using servo motor
 - **G-code Compatible**: Standard G-code interpretation for drawing commands
-- **RAMPS 1.4 Based**: Uses standard 3D printer electronics (RAMPS 1.4 EFF)
+- **RAMPS 1.6 Based**: Uses standard 3D printer electronics (RAMPS 1.4 EFF)
 - **PlatformIO Support**: Easy compilation and uploading using PlatformIO
 
 ## Hardware Requirements
