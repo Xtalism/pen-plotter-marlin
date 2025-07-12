@@ -9,12 +9,12 @@ A custom Marlin firmware configuration for a 2-axis CNC pen plotter build. This 
 - **2-Axis Control**: Precise X/Y movement for drawing applications
 - **Servo Pen Control**: Automated pen lift/lower mechanism using servo motor
 - **G-code Compatible**: Standard G-code interpretation for drawing commands
-- **RAMPS 1.6 Based**: Uses standard 3D printer electronics (RAMPS 1.4 EFF)
+- **RAMPS 1.6 Based**: Uses standard 3D printer electronics (RAMPS 1.6 EFF)
 - **PlatformIO Support**: Easy compilation and uploading using PlatformIO
 
 ## Hardware Requirements
 
-- **Controller**: Arduino Mega 2560 with RAMPS 1.4 shield
+- **Controller**: Arduino Mega 2560 with RAMPS 1.6 shield
 - **Stepper Motors**: 2x stepper motors for X and Y axes
 - **Servo Motor**: 1x servo for pen lift mechanism (connected to pin P0)
 - **Stepper Drivers**: Compatible stepper motor drivers (A4988, DRV8825, etc.)
